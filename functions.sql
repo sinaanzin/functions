@@ -69,6 +69,8 @@ select fname,calculate_age(dob) as age from persons;
 
 select country_name, char_length(country_name) as name_length from country;
 
+select country_name,substring(country_name,1,3) as first_3 from country;
+
 select country_name , lower(country_name) as lower_case from country;
 select country_name , upper(country_name) as upper_case from country
 
